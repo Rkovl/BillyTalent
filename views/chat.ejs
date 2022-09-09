@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Billy Talent</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/index.css">
+
+  </head>
+  <body>
+    <header class="p-3 bg-dark text-white">
+      <div class="me-lg-5 ms-lg-5">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <div class="col-10"></div>
+              <ul class="col-2 nav justify-content-between ">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/music">Albums</a></li>
+                  <li><a href="/bio">Origins</a></li>
+                  <li><a href="/chat"> Live Chat</a></li>
+              </ul>
+          </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-4" id="form">
+              <h1 class="feedback-form-title">Send us feedback</h1>
+              <form class="feedback-form">
+                  <div class="form-group">
+                      <label for="chat-username">Name</label>
+                      <input type="text" class="form-control" id="chat-username" placeholder="Enter your name">
+                  </div>
+                  <div class="form-group">
+                      <label for="chat-message">Message</label>
+                      <textarea type="text" placeholder="Enter your message, then hit the submit" class="form-control"
+                          id="chat-message" rows="6"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-default pull-right text-warning">Submit</button>
+              </form>
+          </div><!-- primary -->
+          <aside class="col-sm-8 bg-black">
+              <div class="maincontent feedback">
+                  <h2 class="article-title">Recent Feedback</h2>
+                  <div class="feedback-messages" id="chat-display">
+                     
+                  </div>
+              </div>
+          </aside><!-- secondary -->
+      </div>
+  </div><!-- container -->
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="/js/reallivechate.js"></script>
+
+  </body>
+</html>

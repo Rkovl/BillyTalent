@@ -1,0 +1,39 @@
+{
+  "albums": [{
+    "title" : "Billy Talent",
+	"urlTitle" : "Billy_Talent",
+    "songs": "https://open.spotify.com/embed/album/4Z4FErymthnN4ctJdKRgko?utm_source=generator&theme=0",
+    "cover" : "bt_I-min.jpg",
+	"year" : "2003"
+	},{
+    "title" : "Billy Talent II",
+	"urlTitle" : "Billy_Talent_II",
+    "songs": "https://open.spotify.com/embed/album/0cTOvcvrbNiaiv4WXEUHzT?utm_source=generator&theme=0",
+    "cover" : "bt_II-min.jpg",
+	"year" : "2006"
+	},{
+	"title" : "Billy Talent III",
+	"urlTitle" : "Billy_Talent_III",
+    "songs": "https://open.spotify.com/embed/album/58IwNbkCL527REhNX7emWv?utm_source=generator&theme=0",
+    "cover" : "bt_III-min.jpg",
+	"year" : "2009"
+	},{
+	"title" : "Dead Silence",
+	"urlTitle" : "Dead_Silence",
+    "songs": "https://open.spotify.com/embed/album/3yuCvOuQzeRrUJ4IUZJU65?utm_source=generator&theme=0",
+    "cover" : "dead_silence-min.jpg",
+	"year" : "2012"
+	},{
+	"title" : "Afriad of Heights",
+	"urlTitle" : "Afriad_of_Heights",
+    "songs": "https://open.spotify.com/embed/album/2kqjqQneZx935suPAhokuj?utm_source=generator&theme=0",
+    "cover" : "aoh_cover-min.jpg",
+	"year" : "2016"
+	},{
+    "title" : "Crisis of Faith",
+	"urlTitle" : "Crisis_of_Faith",
+    "songs": "https://open.spotify.com/embed/album/5SHCyDKUS2SWdR9FJlRFvN?utm_source=generator&theme=0",
+    "cover" : "cof_cover-min.jpg",
+	"year" : "2022"
+	}]
+}
